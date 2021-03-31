@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "249410837360",
+    "project_id": "android-chat-c20cf",
+    "storage_bucket": "android-chat-c20cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249410837360:android:d909460ff405d723bc0db5",
+        "android_client_info": {
+          "package_name": "fi.oamk.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249410837360-icbsdhun5oou10g72ova30ijl56jduoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBykqZnIRGT0xd0zwaEfWpHZay_q5rR9bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249410837360-icbsdhun5oou10g72ova30ijl56jduoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
