@@ -7,6 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class MyAdapter (private val myDataset: ArrayList<String>): RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
+
     class MyViewHolder (itemView: View): RecyclerView.ViewHolder(itemView){
         val message: TextView = itemView.findViewById(R.id.message)
     }
