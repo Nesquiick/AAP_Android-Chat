@@ -45,4 +45,16 @@
         parent="@style/Widget.AppCompat.ActionBar.TabText">
         <item name="android:textColor">@color/black</item>
     </style>
+
+    <!-- Menu icon Doesn't change anything -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <!-- Menu icon style Doesn't change anything -->
+    <style name="OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/logo_settings</item>
+    </style>
+
+    </style>
 </resources>
