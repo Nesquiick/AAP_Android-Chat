@@ -1,4 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <!-- Base application theme. -->
     <style name="Theme.Chat" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
@@ -10,7 +11,7 @@
         <item name="colorSecondaryVariant">@color/deep_blue</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/white</item>
     </style>
 
     <!-- the theme applied to the application or activity -->
@@ -46,12 +47,12 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
-    <!-- Menu icon Doesn't change anything -->
+    <!-- Menu icon : Doesn't change anything -->
     <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
         <item name="actionOverflowButtonStyle">@style/OverFlow</item>
     </style>
 
-    <!-- Menu icon style Doesn't change anything -->
+    <!-- Menu icon style : Doesn't change anything -->
     <style name="OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
         <item name="android:src">@drawable/logo_settings</item>
     </style>
