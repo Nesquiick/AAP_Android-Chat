@@ -7,4 +7,4 @@ email : test@test.fi
 password : testest
 
 
-*** by Loreleï Noiraud ***
+** by Loreleï Noiraud **
