@@ -139,8 +139,9 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(baseContext, "Anthentication failed.", Toast.LENGTH_SHORT).show()
                 }
             }
+        }else{
+            Toast.makeText(baseContext, "Anthentication failed.", Toast.LENGTH_SHORT).show()
         }
-        Toast.makeText(baseContext, "Anthentication failed.", Toast.LENGTH_SHORT).show()
     }
 
     private fun addMessage() {
